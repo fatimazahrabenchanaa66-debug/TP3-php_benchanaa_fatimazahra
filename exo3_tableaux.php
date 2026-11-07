@@ -119,3 +119,38 @@ var_dump($a==$b)
 // $sa == $sb : true (mêmes paires clé/valeur, l'ordre importe peu)
 // $sa === $sb : false (l'ordre des clés ou le type diffère/l'ordre exact compte pour l'égalité stricte en PHP).
 ?>
+///
+<?php
+require 'config.php';
+require_once 'exo2_flux.php';
+?>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>TP 02 PHP</title>
+</head>
+<body>
+
+<?php include 'includes/entete_inc.php'; ?>
+<?php include 'includes/menu_inc.php'; ?>
+
+<!-- Tout ton code actuel de l'exercice 3 reste ici -->
+
+<h1>Exercice 3.1</h1>
+
+<?php
+$notes = [
+    "Mohamed" => 16,
+    "Ahmed" => 14,
+    // ...
+];
+?>
+
+<!-- le reste de ton fichier inchangé -->
+
+<?php include 'includes/pied_inc.php'; ?>
+
+</body>
+</html>
